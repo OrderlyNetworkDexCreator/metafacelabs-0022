@@ -1,5 +1,6 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'Roboto', sans-serif;
+  --oui-font-size-base: 16px;
 
   /* colors */
   --oui-color-primary: 176 132 233;
@@ -24,7 +25,7 @@
   --oui-color-success-darken: 0 161 120;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 209 70;
+  --oui-color-warning: 201 166 59;
   --oui-color-warning-light: 255 229 133;
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
@@ -91,4 +92,9 @@
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
 }
